@@ -33,7 +33,7 @@ const createServer = async (container) => {
             method: 'GET',
             path: '/hi',
             handler: () => ({
-                value: 'Halo, apa kabar? Sehat? Aman? Jangan lupa makan dan istirahat. Stay healthy!!!',
+                value: 'Grazias, apa kabar? Sehat? Aman? Jangan lupa makan dan istirahat. Stay healthy!!!',
             }),
         },
     ]);
