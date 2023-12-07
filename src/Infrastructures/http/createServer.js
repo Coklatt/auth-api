@@ -26,14 +26,14 @@ const createServer = async (container) => {
             method: 'GET',
             path: '/',
             handler: () => ({
-                value: 'Selamat Datang di aplikasi Authentication API!',
+                value: 'Welcome!',
             }),
         },
         {
             method: 'GET',
             path: '/hi',
             handler: () => ({
-                value: 'Grazias, apa kabar? Sehat? Aman? Jangan lupa makan dan istirahat. Stay healthy!!!',
+                value: 'Pa kabe???',
             }),
         },
     ]);
