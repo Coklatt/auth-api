@@ -1,4 +1,0 @@
-Script: cd auth-api
-git pull serverside master
-npm install
-pm2 restart auth-api
